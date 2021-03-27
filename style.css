@@ -1,0 +1,140 @@
+/*begin all element*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Monserrat';
+}
+#tentang,#pendidikan,#al-afghani,
+#profesi,#karya-tulis,#pemikiran{
+	margin-top: -4px;
+	padding: 35px 55px 35px 25px;
+}
+.content>h2{
+	text-align: center;
+	font-size: 50px;
+	margin: 0px 0px 10px;
+}
+.bagian{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+.content{
+	text-align: justify;
+	padding: 5px 50px 5px 30px;
+	font-size: 20px;
+}
+.profile1{
+	display: none;
+}
+.profile2{
+	height: 355px; 
+	margin: auto 0;
+}
+@media screen and (max-width: 600px){
+	#tentang,#pendidikan,#al-afghani,
+	#profesi,#karya-tulis,#pemikiran{
+		padding: 50px 20px;
+	}
+	.bagian{
+		flex-wrap: wrap;
+	}
+	.content{
+		padding: 3px;
+	}
+	.profile1{
+		display: block;
+		margin: auto;
+		padding: 20px;
+	}
+	.profile2{
+		display: none;
+	}
+}
+/*end all element*/
+
+/*begin selamat-datang*/
+#selamat-datang{
+	position: relative;
+	text-align: center;
+}
+#selamat-datang>img{
+	height: 100vh;
+	width: 100%;
+	opacity: 0.6;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.welcome{
+	position: absolute;
+	font-size: 75px;
+	top: 33.3%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.text1{
+	position: absolute;
+	font-size: 35px;
+	top: 66.7%;
+	left: 60%;
+	transform: translate(-66.7%,-50%);
+}
+@media screen and (max-width: 600px){
+	.welcome{
+		font-size: 50px;
+	}
+	.text1{
+		top: 66.7%;
+		font-size: 25px;
+	}
+}
+/*end selamat-datang*/
+
+/*begin tentang*/
+#tentang{	
+	background-color: #d07944;
+}
+@media screen and (max-width: 600px){
+	#tentang>.bagian>.content>.profile1{
+		width: 200px;
+		height: 300px;
+	}
+}
+/*end tentang*/
+
+/*begin pendidikan*/
+#pendidikan{
+	background-color: #be913f;
+}
+@media screen and (max-width: 600px){
+	#pendidikan>.bagian>.content>.profile1{
+		width: 250px;
+		height: 200px;
+	}
+}
+/*end pendidikan*/
+
+/*begin al-afghani*/
+#al-afghani{	
+	background-color: #d49441;
+}
+@media screen and (max-width: 600px){
+	#al-afghani>.bagian>.content>.profile1{
+		height: 300px;
+		width: 228px;
+	}
+}
+/*end al-afghani*/
+
+/*begin profesi*/
+#profesi{	
+	background-color: #d07944;
+}
+@media screen and (max-width: 600px){
+	#profesi>.bagian>.content>.profile1{
+		width: 275px;
+		height: 300px;
+	}
+}
+/*end profesi*/
