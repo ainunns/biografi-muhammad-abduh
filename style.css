@@ -31,7 +31,7 @@
 	height: 355px; 
 	margin: auto 0;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
 	#tentang,#pendidikan,#al-afghani,
 	#profesi,#karya-tulis,#pemikiran{
 		padding: 50px 20px;
@@ -80,7 +80,7 @@
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
 	.welcome{
 		font-size: 50px;
 	}
@@ -107,7 +107,7 @@
 #pendidikan{
 	background-color: #be913f;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
 	#pendidikan>.bagian>.content>.profile1{
 		width: 250px;
 		height: 200px;
@@ -119,7 +119,7 @@
 #al-afghani{	
 	background-color: #d49441;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
 	#al-afghani>.bagian>.content>.profile1{
 		height: 300px;
 		width: 228px;
@@ -130,6 +130,12 @@
 /*begin profesi*/
 #profesi{	
 	background-color: #d07944;
+}
+@media screen and (max-width: 700px){
+	#profesi>.bagian>.content>.profile1{
+		width: 275px;
+		height: 300px;
+	}
 }
 @media screen and (max-width: 600px){
 	#profesi>.bagian>.content>.profile1{
